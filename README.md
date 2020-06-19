@@ -1,7 +1,9 @@
-Role Name
+Spacemacs
 =========
 
-A brief description of the role goes here.
+Install Spacemacs.
+
+See: https://github.com/syl20bnr/spacemacs
 
 Requirements
 ------------
@@ -25,7 +27,8 @@ Including an example of how to use your role (for instance, with variables passe
 
     - hosts: servers
       roles:
-         - { role: username.rolename, x: 42 }
+         - role: wintus.spacemacs
+           become: yes
 
 License
 -------
