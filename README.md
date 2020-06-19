@@ -3,7 +3,7 @@ Spacemacs
 
 Install Spacemacs.
 
-See: https://github.com/syl20bnr/spacemacs
+See: <https://github.com/syl20bnr/spacemacs>
 
 Requirements
 ------------
