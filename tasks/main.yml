@@ -1,2 +1,8 @@
 ---
-# tasks file for spacemacs
+- name: install emacs
+  import_tasks: emacs.yml
+
+- name: install spacemacs
+  git:
+    repo: https://github.com/syl20bnr/spacemacs
+    dest: "{{ ansible_env.HOME }}/.emacs.d"
